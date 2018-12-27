@@ -71,7 +71,8 @@ def MaunalloginUser():
         print("current url 3:",driver.current_url)
         FILENAMELIST()            
   finally:
-            driver.quit()
+        print("defined timerange timeout")    
+        driver.quit()
         
 def filesize():
         mypath ="C:/Users/XXXXXXXXXX/python_learning/pic/1/"
